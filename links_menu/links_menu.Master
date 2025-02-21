@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="links_menu.master.cs" Inherits="alameer2022_11_12.forms.links_menu.links_menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <title>My favoraite مفضلتي</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+ 
+    <style type="text/css">
+
+        .but4 {
+    border-radius: 18px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px gray;
+    background-color: white;
+        color: black;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+    .but4:hover {
+       
+
+         background-color: black;
+    color: white;
+    }
+
+        #form1 {
+            text-align: center;
+        }
+        .gNO89b {}
+        .bar{
+             border-radius: 19px;
+             border:none;
+               box-shadow: 3px 3px 3px gray;
+               text-align:center;
+margin-top:5px;        }
+        
+         .ex {
+             position:absolute;
+             top:50px;
+             left :8px;
+          }
+         .ex:hover{
+             background-color:white;
+         }
+        .auto-style33 {
+            margin-right: 0px;
+            font-size: large;
+        }
+
+
+        .im{
+            height:30px;
+        }
+
+
+
+
+
+        
+
+
+
+
+
+        .auto-style55 {
+            font-size: large;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body >
+    
+ <asp:Panel ID="Panel1" runat="server" >
+    <form id="form1" runat="server" style="overflow:auto;" dir="rtl"  >
+
+
+        <div style="text-align:center; min-height:600px" >
+           
+
+   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+       
+   </asp:ContentPlaceHolder>
+        </div>
+  
+       
+        <asp:Panel ID="Panel4" runat="server"   Height="80px">
+            <strong>
+            <asp:ImageButton ID="ImageButton1" runat="server"   Height="27px" ImageUrl="https://png.pngtree.com/element_our/png/20181227/settings-glyph-black-icon-png_292947.jpg" OnClick="ImageButton1_Click1" Width="41px" />
+            <span  >&nbsp;&nbsp;&nbsp;&nbsp; تصميم : محمد السيد علي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مدرس رياضيات&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp; &nbsp;مدرسة الامير الحلقة الثالثة&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br class="auto-style5" />
+            <br   />
+            <span  >&nbsp; مديرة المدرسة : مريم الغربي</span></strong></asp:Panel>
+        
+
+        
+         
+    </form>
+   </asp:Panel>
+
+</body>
+</html>
